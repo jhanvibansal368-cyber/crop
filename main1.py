@@ -6,8 +6,8 @@ from datetime import datetime
 import time
 
 # --- Your keys ---
-WEATHER_API_KEY = ""
-GEMINI_API_KEY = ""
+WEATHER_API_KEY= st.secrets["WEATHER_API_KEY"]
+GEMINI_API_KEY= st.secrets["GEMINI_API_KEY"]
 
 # --- Translations dictionary ---
 TEXT = {
